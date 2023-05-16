@@ -66,7 +66,7 @@ if(loggedInState==loggedInStates.NOT_LOGGED_IN){
                 )
                 const sendTextResponseData = await sendTextResponse.text();
                 if(sendTextResponse.status!=200){//invalid phone number, send them to the signup page
-                  await Alert.alert("Did you type your number correctly? "+phoneNumber);
+                  await Alert.alert("Hello Brent "+phoneNumber);
                 } else{
                   setLoggedInState(loggedInStates.LOGGING_IN);
                 }
