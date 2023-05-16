@@ -133,7 +133,7 @@ if(loggedInState==loggedInStates.NOT_LOGGED_IN){
      else if (loggedInState==loggedInStates.LOGGED_IN){
       return(
         <View>
-          <Text>Hello Brent</Text>
+          <Text> log in</Text>
         </View>
       )}
 }
